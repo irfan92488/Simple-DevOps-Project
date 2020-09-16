@@ -21,8 +21,8 @@ cd /var/www/html
 ```
    sudo vi phpinfo.php
 ```
-# <?php
-   phpinfo();
+<?php
+ phpinfo();
    
 # Install Mysql database
 # First Add Root Password
