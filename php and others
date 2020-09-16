@@ -1,0 +1,23 @@
+#  Install & configure PHP 73 on Linux
+
+
+
+#### Install httpd24 on linux
+1. 
+      sudo yum install httpd24
+     # Start the service httpd
+     service httpd start
+    ```
+	
+2. install php version 73 and mysql
+   sudo yum install php73 php73-mysql php-mbstring
+   ```
+   
+#. After installing go html directory
+   cd /var/www/html
+   #create file give name phpinfo.php
+  sudo vi phpinfo.php
+  #<?php
+   phpinfo();
+  
+  
